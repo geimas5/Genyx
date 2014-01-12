@@ -11,8 +11,8 @@
 \date{\today}
 
 \maketitle
-\tableofcontents{dsd}
-
+\tableofcontents
+\listoffigures
 
 \section{Introduksjon}
 \subsection{Formål}
@@ -58,9 +58,9 @@ Denne applikasjonen vil kreve en stor skjermstørrelse for å kunne effektivt no
 Fordi alle data blir lagret lokalt på enheten vil antall notater som kan lagres på enheten være begrenset av tilgjenglig diskplass.
 
 \subsection{Antagelser og avhengigheter}
-En antagelse som blir tatt er at de mobile enhetene er kraftige nok, og har nok tilgjenglig ytelse til å kjøre applikasjonen.
+En antagelse som blir tatt er at de mobile enhetene er kraftige nok, og har nok tilgjenglig ytelse til å kjøre applikasjonen. Hvis enheten ikke er kraftig nok til å kjøre applikasjonen så kan applikasjonen ikke fungere som ment, eller ikke i det hele tatt.
 
-Det er også en antagelse at alle GPS enhetene er tilgjenglig igjennom android GPS api.
+For at applikasjonen skal kunne tilby geo-lokasjonstjenester via GPS er det nødvendig at GPS er tilgjenglig på enheten. Hvis GPS ikke er tilgjenglig vil ikke denne opsjonen være tilgjenglig.
 
 \subsection{Utelating av funksjonalitet}
 For å hindre at prosjektet ikke blir ferdig er det enkelt funksjonalitet som kan bli utelatt fra prosjektet. Funksjoner som kan bli utelatt er facebook integrering, og at den grafiske redigeringen av notater kan bli forenklet.
@@ -72,34 +72,74 @@ Denne seksjonen inneholder funksjonelle krav, og en detaljert beskrivelse av sys
 Denne seksjonen beskriver krav til all input og output fra applikasjonen.
 
 \subsubsection{Brukergrensesnitt}
+
 \begin{figure}[hb]
 	\centering
 	\subfigure[Hjem skjerm]{%
 		\includegraphics[width=150pt]{HomeScreen.png}
 		\label{fig:homescreenfigure}}
 	\quad
-	\subfigure[Blush Smiley]{%
-		\includegraphics[width=150pt]{HomeScreen.png}
-		\label{fig:subfigure2}}
-	\subfigure[Sleepy Smiley]{%
-		\includegraphics[width=150pt]{HomeScreen.png}
-		\label{fig:subfigure3}}
+	\subfigure[Notatfilter skjerm]{%
+		\includegraphics[width=150pt]{NoteListFilterScreen.png}
+		\label{fig:NoteListFilterScreen}}
 	\quad
-	\subfigure[Angry Smiley]{%
-		\includegraphics[width=150pt]{HomeScreen.png}
-		\label{fig:subfigure4}}
+	\subfigure[Behandle kategorier]{%
+		\includegraphics[width=150pt]{CategoriesScreen.png}
+		\label{fig:categoriesScreen}}
+	\quad
+	\subfigure[Notat vedleggliste]{%
+		\includegraphics[width=150pt]{NoteAttachmentsScreen.png}
+		\label{fig:NoteAttachmentsScreen}}
 	%
-	\caption{Main figure caption}
-\label{fig:figure}
+	\caption{Skjermer}
+\label{fig:screens}
 \end{figure}
 
-Hjemskjermen (Se Figur \ref{fig:homescreenfigure} på side~\pageref{fig:homescreenfigure}) vil inneholde en liste over alle notatene, sortert med de nyeste først. Den vil implementere lazy loading av elementer slik at ikke alle elementer lastes sammtidig. Hvert listeelement inneholder tittelen på notatet, og stedet den ble registrert (hvis tilgjenglig). og datoen den sist ble modifisert. 
+\begin{figure}[hb]
+	\centering
+	\subfigure[Vis notat]{%
+		\includegraphics[width=150pt]{NoteViewScreen.png}
+		\label{fig:NoteViewScreen}}
+	\quad
+	\subfigure[Rediger notat]{%
+		\includegraphics[width=150pt]{NoteEditScreen.png}
+		\label{fig:NoteEditScreen}}
+	\quad
+	\subfigure[Rediger notatside skjerm]{%
+		\includegraphics[width=150pt]{NoteEditPageScreen.png}
+		\label{fig:NoteEditPageScreen}}
+		\quad
+	\subfigure[Rediger notatmeta skjerm]{%
+		\includegraphics[width=150pt]{NoteEditNoteScreen.png}
+		\label{fig:NoteEditNoteScreen}}
+	%
+	\caption{Notatskjermer}
+\label{fig:notescreens}
+\end{figure}
 
+
+\paragraph{Hjemskjermen} (Se Figur \ref{fig:homescreenfigure} på side~\pageref{fig:homescreenfigure}) vil inneholde en liste over alle notatene, sortert med de nyeste først. Den vil implementere lazy loading av elementer slik at ikke alle elementer lastes sammtidig. Hvert listeelement inneholder tittelen på notatet, og stedet den ble registrert (hvis tilgjenglig). og datoen den sist ble modifisert. Når brukeren holder fingeren på notatet i en lengre periode så blir brukeren spurt om å slette notatet. Ved å trykke på kontekst meny knappen på telefonen vil brukeren få opp en meny med mulighet til å gå til en "About"~skjerm, og mulighet for å behandle kategorilisten. Listen med notater kan filtreres ved å trykke på filtreringsknappen som navigerer brukeren til Filterskjermen.
+
+\paragraph{Filterskjermen} (Se Figur \ref{fig:NoteListFilterScreen} på side~\pageref{fig:NoteListFilterScreen}) her vil brukeren kunne legge inn filter på fritekst, avstand fra et geografisk punkt, og dato. En teller over antall søkeresultater oppdateres ved endring av filterkriteria.
+
+\paragraph{Behandle~kategorier~skjermen}(Se Figur \ref{fig:categoriesScreen} på side~\pageref{fig:categoriesScreen}) vil inneholde en liste over alle kategoriene. For å opprette en ny kategori benyttes + knappen. For å slette en kategori så blir brukeren presentert med et spørsmål om å slette kategorien hvis brukeren peker på kategorien i en lengre periode.
+
+\paragraph{Notatskjermen} Når brukeren går inn på et eksisterende notat så blir brukeren presentert med en kun-lese visning av notatet. Der er det mulighet for å sende til andre enheter ved å trykke på sendeikonet, brukeren må da velge hvilken måte notatet skal sendes på. Alternativer vil da være PDF over epost, og andre som vil bli vurdert på et senere tidspunkt, og ved å trykke på sletteknappen kan brukeren slette notatet. Brukeren kan også se og redigere listen over vedlegg fra vedlegg knappen (binders) som fører til at brukeren blir navigert til vedlegglisten. Brukeren kan også ved å trykke på siluetten av en person tagge personer som har tilknytning til notatet. ved å trykke på pennikonet så ender brukeren opp i redigeringsmodus (Se Figur \ref{fig:NoteEditScreen} på side~\pageref{fig:NoteEditScreen}). som vil vise alle lagene i det viste notatet uten noen synlige menyer, hvis det er et nytt nytt notat vil notatet inneholde et tomt fri-hånd lag. Alternativ menyen vil inneholde knapp for sletting av notatet. Ved trykking på den venstre menyknappen vil brukeren få opp meny en meny for redigering av den aktive siden i notatet (se Figur \ref{fig:NoteEditPageScreen} på side~\pageref{fig:NoteEditPageScreen}). I denne pop-out menyen så vil det på toppen være en liste over alle lagene i den aktuelle siden. Ved å trykke på laget blir laget valgt, og kan redigeres. Opprettelse av nytt lag blir gjort ved å trykke på + til høyre for overskriften til regionen. Brukeren må da velge i en dialog hvilken type lag som skal legges til. Når et fri-hånd-lag er valgt så kan brukeren også velge farge på penn, og tykkelse på linjene. Brukeren kan også velge å sette inn tekst i tegningen, importere et bilde fra galleri, eller benytte kamera for å knipse et bilde. Android FaceDetection API vil bli kjørt på det importerte bilde, og hvis fjes blir oppdaget blir brukeren spurt om å tagge personer i notatet. For å redigere data felles for hele notatet så trykker brukeren på den høyre menyknappen i toplinjen. Brukeren vil da bli vist en popout meny (Se Figur \ref{fig:NoteEditNoteScreen} på side~\pageref{fig:NoteEditNoteScreen}) her vil brukeren kunne legge inn tittel, dato, geografisk lokasjon, koble til kalenderhendelse, og spessifisere kategorier, og legge til og fjerne notatsider. Redigering av tittel er et normalt textView. For å redigere den geografiske possisjonen så vil man når man trykker på feltet kunne velge om possisjon skal lastes fra GPS eller basert på mobilnett. Det er også mulig å velge finne possisjonen påved hjelp av et kart ved å trykke på "kart" knappen. Når man skal redigere dato blir brukeren vist en android DatePicker for å velge dato. For å velge kalenderhendelse så blir brukeren vist en liste over hendelser fra fra alle kalendere som er tilgjenglig via Calendar Provider. Hvis kalenderhendelen er knyttet til flere personer blir brukeren spurt om de personene skal tagges i notatet. For å legge til en ny kategori så blir brukeren vist en dialog for å velge kategori eller opprette nye kategorier ved å trykke på + knappen som er plassert etter den siste kategorien. For å velge aktiv side så kan brukeren velge siden i listen. Det vil også være mulig å slette sider ved å trykke på sletteknappen og opprette nye sider ved å trykke på +. Ved opprettelse av ny side blir brukeren spurt om sidetype med standard valgt fri-hånd.
+
+\paragraph{Notatvedlegg} (Se Figur \ref{fig:NoteAttachmentsScreen} på side~\pageref{fig:NoteAttachmentsScreen}) vil brukeren kunne redigere hvilke vedlegg som ligger ved på notatet. Ved å trykke på kamera-ikonet vil kamera starte, og bilde blirv vil etterpå bli importert inn i notatet. Ved å trykke på import knappen vil brukeren kunne velge en fil fra filsystemet for import inn i notatet. Når et vedlegg blir trykt på blir det åpnet i det programmet som er registrert av android for å kunne åpne den filtypen, unntaket fra dette er bildefiler som blir vist inne i applikasjonen. Vedlegget kan slettes ved å trykke på krysset i listen.
 
 \subsubsection{Maskinvaregrensesnitt}
+Applikasjonen vil være avhengig av GPS, og vil benytte android GPS subsystem for kommunikasjon med GPS enheter, og kamera API for integrasjon med kommunikasjon med kamera.
 
 \subsubsection{Programmvaregrensesnitt}
+For å hente inn den geografiske posisjonen til brukeren vil applikasjonen benytte mobilt nettverk, GPS, and evt. andre metoder for å hente den aktuelle posisjonen til brukeren. For å gjøre dette vil android geo navigasjon subsystemet bli benyttet. Kamera blir benyttet for å kunne knytte et bilde til et notat som blir importert enten som et vedlegg til notatet, eller som en tegning i et fri-hånd lag.
 
 \subsubsection{Kommunikasjonsgrensesnitt}
+Applikasjonen vil måtte kommunisere for å sende notater til andre enheter. For å sende notat til andre enheter er via epost en opsjon. For kommunikasjon via epost vil standard epostklient bli benyttet. Det vil også på et senere tidspunkt bli utredet for muligheter til å benytte Bluetooth(tm) og NFC.
+
+
+
+
+
 
 \end{document}

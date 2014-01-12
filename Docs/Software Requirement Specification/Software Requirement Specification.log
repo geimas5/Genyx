@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.11)  12 JAN 2014 15:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.11)  12 JAN 2014 22:40
 entering extended mode
 **Software*Requirement*Specification.tex
 
@@ -364,6 +364,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
 )
 \tf@toc=\write3
+
+("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
+ware Requirement Specification.lof")
+\tf@lof=\write4
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] <HomeScreen.png, 
@@ -371,46 +375,94 @@ id=14, 243.15843pt x 432.11438pt>
 File: HomeScreen.png Graphic file (type png)
 
 <use HomeScreen.png>
-Package pdftex.def Info: HomeScreen.png used on input line 79.
-(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
-File: HomeScreen.png Graphic file (type png)
- <use HomeScreen.png>
-Package pdftex.def Info: HomeScreen.png used on input line 83.
-(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
-File: HomeScreen.png Graphic file (type png)
- <use HomeScreen.png>
-Package pdftex.def Info: HomeScreen.png used on input line 86.
-(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
-File: HomeScreen.png Graphic file (type png)
-
-<use HomeScreen.png>
-Package pdftex.def Info: HomeScreen.png used on input line 90.
+Package pdftex.def Info: HomeScreen.png used on input line 80.
 (pdftex.def)             Requested size: 150.0pt x 266.56305pt.
 
+<NoteListFilterScreen.png, id=15, 243.15843pt x 432.11438pt>
+File: NoteListFilterScreen.png Graphic file (type png)
 
-LaTeX Warning: Float too large for page by 7.79272pt on input line 94.
+<use NoteListFilterScreen.png>
+Package pdftex.def Info: NoteListFilterScreen.png used on input line 84.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
 
-[4] [5 <C:/Projects/school/Android/Genyx/Docs/Software Requirement Specificatio
-n/HomeScreen.png>]
+<CategoriesScreen.png, id=17, 243.15843pt x 432.11438pt>
+File: CategoriesScreen.png Graphic file (type png)
+
+<use CategoriesScreen.png>
+Package pdftex.def Info: CategoriesScreen.png used on input line 88.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+<NoteAttachmentsScreen.png, id=18, 243.15843pt x 432.11438pt>
+File: NoteAttachmentsScreen.png Graphic file (type png)
+
+<use NoteAttachmentsScreen.png>
+Package pdftex.def Info: NoteAttachmentsScreen.png used on input line 92.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+
+LaTeX Warning: Float too large for page by 7.79272pt on input line 96.
+
+<NoteViewScreen.png, id=19, 243.15843pt x 432.11438pt>
+File: NoteViewScreen.png Graphic file (type png)
+
+<use NoteViewScreen.png>
+Package pdftex.def Info: NoteViewScreen.png used on input line 102.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+<NoteEditScreen.png, id=20, 243.15843pt x 432.11438pt>
+File: NoteEditScreen.png Graphic file (type png)
+
+<use NoteEditScreen.png>
+Package pdftex.def Info: NoteEditScreen.png used on input line 106.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+<NoteEditPageScreen.png, id=21, 243.15843pt x 432.11438pt>
+File: NoteEditPageScreen.png Graphic file (type png)
+
+<use NoteEditPageScreen.png>
+Package pdftex.def Info: NoteEditPageScreen.png used on input line 110.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+<NoteEditNoteScreen.png, id=22, 243.15843pt x 432.11438pt>
+File: NoteEditNoteScreen.png Graphic file (type png)
+
+<use NoteEditNoteScreen.png>
+Package pdftex.def Info: NoteEditNoteScreen.png used on input line 114.
+(pdftex.def)             Requested size: 150.0pt x 266.56305pt.
+
+
+LaTeX Warning: Float too large for page by 7.79272pt on input line 118.
+
+[4] [5] [6] [7 <C:/Projects/school/Android/Genyx/Docs/Software Requirement Spec
+ification/HomeScreen.png> <C:/Projects/school/Android/Genyx/Docs/Software Requi
+rement Specification/NoteListFilterScreen.png> <C:/Projects/school/Android/Geny
+x/Docs/Software Requirement Specification/CategoriesScreen.png> <C:/Projects/sc
+hool/Android/Genyx/Docs/Software Requirement Specification/NoteAttachmentsScree
+n.png>] [8 <C:/Projects/school/Android/Genyx/Docs/Software Requirement Specific
+ation/NoteViewScreen.png> <C:/Projects/school/Android/Genyx/Docs/Software Requi
+rement Specification/NoteEditScreen.png> <C:/Projects/school/Android/Genyx/Docs
+/Software Requirement Specification/NoteEditPageScreen.png> <C:/Projects/school
+/Android/Genyx/Docs/Software Requirement Specification/NoteEditNoteScreen.png>]
+
 ("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
 ware Requirement Specification.aux") ) 
 Here is how much of TeX's memory you used:
- 1877 strings out of 493921
- 24331 string characters out of 3147258
- 78706 words of memory out of 3000000
- 5176 multiletter control sequences out of 15000+200000
+ 1925 strings out of 493921
+ 25712 string characters out of 3147258
+ 86798 words of memory out of 3000000
+ 5214 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,754b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,24p,3521b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
 fb>
-Output written on "Software Requirement Specification.pdf" (5 pages, 78078 byte
-s).
+Output written on "Software Requirement Specification.pdf" (8 pages, 141325 byt
+es).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
