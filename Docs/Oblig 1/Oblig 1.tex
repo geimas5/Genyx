@@ -1,5 +1,6 @@
 \documentclass[a4paper, 12pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 
 
 \begin{document}
@@ -11,21 +12,51 @@
 
 \section{App beskrivelse}
 
+Se eget dokument for app beskrivelsen.
+
 \section{Teorispørsmål}
 \subsection*{Forklar}
 \subsubsection*{Intent}
 En Intent benyttes for å beskrive en handling og kan bli sendt inn til foreksempel StartActivity for å starte en aktivitet.
 
 \subsubsection*{View}
-
+Et view er en basisen for alle byggeblokkene i android. For eksempel er TextView, ImageView osv. views som arver fra klassen View.
 
 \subsubsection*{Activity}
+Alle "skjermene" som brukeren ser er en activity, så når du foreksempel navigerer fra hovedsiden til en kontaktliste i applikasjonen så navigerer du fra en aktivitet til en annen.
+
 \subsubsection*{Content provider}
+Content providers er providere som gir tillgang til data på kryss av applikasjoner. De kan bli benyttet internt som en del av arketekturen i applikasjonen, men er primært ment for å gjøre data tilgjenglig på kryss av applikasjoner.
+
 \subsubsection*{Service}
+En service er en komponent som blir benyttet til å utføre lengre oppgaver. Men det er viktig å huske på at en service ikke jobber på en egen tråd, og er ikke en egen applikasjon.
+
 \subsection*{Hva benyttes AndroidManifest.xml til?}
+ActivityManifest.xml blir benyttet til spessifisere en del essensiell informasjon som app versjon, target og min versjoner, hvilke aktiviteter, intent-filter osv.
+
 \subsection*{Forklar Activity Life Cycle?}
+\includegraphics*[scale=0.5]{ActivityLifecycle.png}
+
+\subsubsection*{onCreate()}
+Denne metoden er kjørt når aktiviteten blir opprettet.
+
+\subsubsection*{onStart()}
+Denne metoden blir kjørt når aktiviteten blir synlig for brukeren.
+
+\subsubsection*{onResume()}
+Denne metoden blir kjørt når brukeren begynner å jobbe med aktiviteten.
+
+\subsubsection*{onPause()}
+Denne metoden blir kjørt når aktiviteten blir pauset, og en tidligere aktivitet blir gjennopptatt.
+
+\subsubsection*{onStop()}
+Denne metoden blir gjørt når aktiviteten ikke lengre er synlig for brukeren.
+
+\subsubsection*{onDestroy()}
+Denne metoden blir kjørt når aktiviteten blir fjernet fra systemet.
 
 
-
+\subsubsection*{onRestart()}
+Denne metoden blir kjørt når metoden blir startet fra stoppet tilstand.
 
 \end{document}
