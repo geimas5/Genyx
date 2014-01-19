@@ -1,0 +1,32 @@
+package com.geitle.genyx.data.Sql;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import android.R;
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class GenyxSqLiteHelper extends SQLiteOpenHelper {
+	private static final String DATABASE_NAME = "genyx.db";
+	private static final int DATABASE_VERSION = 1;
+	
+	private Context context;
+	
+	public GenyxSqLiteHelper(Context context, CursorFactory factory) {
+		super(context, DATABASE_NAME, factory, DATABASE_VERSION);
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase database) {
+		InputStream stream = this.context.getResources().openRawResource(1);
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		// TODO Auto-generated method stub
+		
+	}	
+}

@@ -1,0 +1,9 @@
+package com.geitle.genyx.data.model;
+
+public class NoteRepository implements Repository {
+
+	@Override
+	public int findById(int id) {
+		return 0;
+	}
+}

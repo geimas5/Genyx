@@ -1,0 +1,5 @@
+package com.geitle.genyx.data.SqlLite;
+
+public class SqlNoteRepository {
+
+}

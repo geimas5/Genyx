@@ -1,0 +1,13 @@
+package com.geitle.genyx.data.Sql;
+
+import com.geitle.genyx.model.NoteRepository;
+
+public class SqlNoteRepository implements NoteRepository {
+
+	@Override
+	public int findById(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.11)  12 JAN 2014 10:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.2)  18 JAN 2014 21:32
 entering extended mode
 **Oblig*1.tex
-("C:\Projects\school\Android\Genyx\Docs\Oblig 1\Oblig 1.tex"
+("E:\Projects\Genyx\Docs\Oblig 1\Oblig 1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -279,19 +279,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Projects\school\Android\Genyx\Docs\Oblig 1\Oblig 1.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+("E:\Projects\Genyx\Docs\Oblig 1\Oblig 1.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -308,9 +308,9 @@ LaTeX Font Info:    ... okay on input line 6.
 \everyMPtoPDFconversion=\toks18
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 11.
+(Font)              <14.4> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 10.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -318,23 +318,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ActivityLifecycle.png Graphic file (type png)
 
 <use ActivityLifecycle.png>
-Package pdftex.def Info: ActivityLifecycle.png used on input line 38.
+Package pdftex.def Info: ActivityLifecycle.png used on input line 37.
 (pdftex.def)             Requested size: 335.75356pt x 279.54369pt.
- [2 <C:/Projects/school/Android/Genyx/Docs/Oblig 1/ActivityLifecycle.png>] [3]
-("C:\Projects\school\Android\Genyx\Docs\Oblig 1\Oblig 1.aux") ) 
+ [2 <E:/Projects/Genyx/Docs/Oblig 1/ActivityLifecycle.png>] [3] ("E:\Projects\G
+enyx\Docs\Oblig 1\Oblig 1.aux") ) 
 Here is how much of TeX's memory you used:
  1326 strings out of 493921
- 16693 string characters out of 3147258
+ 16588 string characters out of 3147280
  68603 words of memory out of 3000000
  4652 multiletter control sequences out of 15000+200000
  6370 words of font info for 23 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,6n,19p,259b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Oblig 1.pdf" (3 pages, 86983 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+17.pfb>
+Output written on "Oblig 1.pdf" (3 pages, 87159 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

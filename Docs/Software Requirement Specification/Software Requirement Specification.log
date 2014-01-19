@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.11)  14 JAN 2014 09:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.2)  18 JAN 2014 21:32
 entering extended mode
 **Software*Requirement*Specification.tex
 
-("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
-ware Requirement Specification.tex"
+("E:\Projects\Genyx\Docs\Software Requirement Specification\Software Requiremen
+t Specification.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -320,8 +320,8 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
-ware Requirement Specification.aux")
+("E:\Projects\Genyx\Docs\Software Requirement Specification\Software Requiremen
+t Specification.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
@@ -354,8 +354,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 13.
 
-("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
-ware Requirement Specification.toc"
+("E:\Projects\Genyx\Docs\Software Requirement Specification\Software Requiremen
+t Specification.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -365,13 +365,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 \tf@toc=\write3
 
-("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
-ware Requirement Specification.lof")
+("E:\Projects\Genyx\Docs\Software Requirement Specification\Software Requiremen
+t Specification.lof")
 \tf@lof=\write4
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] <HomeScreen.png, 
-id=14, 243.15843pt x 432.11438pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3] <HomeScreen.png, id=14, 243.15843pt x 432.11438pt>
 File: HomeScreen.png Graphic file (type png)
 
 <use HomeScreen.png>
@@ -433,33 +433,30 @@ Package pdftex.def Info: NoteEditNoteScreen.png used on input line 121.
 
 LaTeX Warning: Float too large for page by 7.79272pt on input line 125.
 
-[4] [5] [6] [7] [8 <C:/Projects/school/Android/Genyx/Docs/Software Requirement 
-Specification/HomeScreen.png> <C:/Projects/school/Android/Genyx/Docs/Software R
-equirement Specification/NoteListFilterScreen.png> <C:/Projects/school/Android/
-Genyx/Docs/Software Requirement Specification/CategoriesScreen.png> <C:/Project
-s/school/Android/Genyx/Docs/Software Requirement Specification/NoteAttachmentsS
-creen.png>] [9 <C:/Projects/school/Android/Genyx/Docs/Software Requirement Spec
-ification/NoteViewScreen.png> <C:/Projects/school/Android/Genyx/Docs/Software R
-equirement Specification/NoteEditScreen.png> <C:/Projects/school/Android/Genyx/
-Docs/Software Requirement Specification/NoteEditPageScreen.png> <C:/Projects/sc
-hool/Android/Genyx/Docs/Software Requirement Specification/NoteEditNoteScreen.p
-ng>]
-("C:\Projects\school\Android\Genyx\Docs\Software Requirement Specification\Soft
-ware Requirement Specification.aux") ) 
+[4] [5] [6] [7] [8 <E:/Projects/Genyx/Docs/Software Requirement Specification/H
+omeScreen.png> <E:/Projects/Genyx/Docs/Software Requirement Specification/NoteL
+istFilterScreen.png> <E:/Projects/Genyx/Docs/Software Requirement Specification
+/CategoriesScreen.png> <E:/Projects/Genyx/Docs/Software Requirement Specificati
+on/NoteAttachmentsScreen.png>] [9 <E:/Projects/Genyx/Docs/Software Requirement 
+Specification/NoteViewScreen.png> <E:/Projects/Genyx/Docs/Software Requirement 
+Specification/NoteEditScreen.png> <E:/Projects/Genyx/Docs/Software Requirement 
+Specification/NoteEditPageScreen.png> <E:/Projects/Genyx/Docs/Software Requirem
+ent Specification/NoteEditNoteScreen.png>]
+("E:\Projects\Genyx\Docs\Software Requirement Specification\Software Requiremen
+t Specification.aux") ) 
 Here is how much of TeX's memory you used:
  1925 strings out of 493921
- 25712 string characters out of 3147258
+ 25547 string characters out of 3147280
  86798 words of memory out of 3000000
  5214 multiletter control sequences out of 15000+200000
  8808 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,6n,24p,3517b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb>
-Output written on "Software Requirement Specification.pdf" (9 pages, 143060 byt
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Software Requirement Specification.pdf" (9 pages, 143059 byt
 es).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)

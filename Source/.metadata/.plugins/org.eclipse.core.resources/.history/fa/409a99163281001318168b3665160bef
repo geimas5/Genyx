@@ -1,0 +1,11 @@
+package com.geitle.genyx.data.repository;
+
+public class NoteRepository implements Repository {
+
+	@Override
+	public int findById(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

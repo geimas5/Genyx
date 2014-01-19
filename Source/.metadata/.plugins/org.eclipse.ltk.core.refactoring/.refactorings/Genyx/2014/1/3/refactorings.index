@@ -2,3 +2,17 @@
 1389880327768	Delete element
 1389883416263	Move compilation unit
 1389883734309	Move compilation unit
+1390154416402	Rename package 'com.geitle.genyx.data.repository'
+1390154433852	Rename package 'com.geitle.genyx.data.model'
+1390154451879	Delete element
+1390154618131	Rename package 'com.geitle.genyx.data.SqlLite'
+1390156612266	Delete element
+1390156848311	Delete element
+1390157159873	Rename compilation unit 'SqlLiteDataContext.java'
+1390157603381	Rename resource 'Assets'
+1390159272742	Move file
+1390159303226	Rename resource 'SqlCreate.sql'
+1390159324259	Rename resource 'sqlcreate.sql'
+1390161449654	Rename package 'com.geitle.genyx.data.Sql'
+1390161468269	Rename package 'com.geitle.genyx.ContentProvider'
+1390161502489	Rename type 'SqlNoteContentProvider'

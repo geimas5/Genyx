@@ -1,0 +1,22 @@
+package com.geitle.genyx.data.Sql;
+
+import com.geitle.genyx.model.DataContext;
+import com.geitle.genyx.model.Note;
+import com.geitle.genyx.model.NoteRepository;
+
+public class SqlNoteRepository implements NoteRepository {
+	private SqlLiteDataContext dataContext;
+	
+	private SqlNoteRepository(DataContext dataContext) {
+		if(!(dataContext instanceof SqlLiteDataContext))
+			throw new IllegalArgumentException("The datacontext must be of type SqlLiteDataContext");
+			
+		this.dataContext = (SqlLiteDataContext)dataContext;
+	}
+	
+	@Override
+	public Note findById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

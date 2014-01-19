@@ -1,0 +1,5 @@
+package com.geitle.genyx.model;
+
+public interface NoteRepository extends Repository<Note> {
+	
+}

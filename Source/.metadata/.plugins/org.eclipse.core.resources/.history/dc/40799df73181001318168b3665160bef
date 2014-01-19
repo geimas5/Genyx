@@ -1,0 +1,5 @@
+package com.geitle.genyx.data.repository;
+
+public interface Repository {
+
+}

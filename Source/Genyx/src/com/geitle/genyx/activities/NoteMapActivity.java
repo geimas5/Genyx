@@ -52,7 +52,6 @@ public class NoteMapActivity extends FragmentActivity {
 		}
 		
 		LatLng sydney = new LatLng(-33.867, 151.206);
-
 		googleMap.setMyLocationEnabled(true);
 		googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 13));
 

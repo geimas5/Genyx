@@ -1,0 +1,8 @@
+package com.geitle.genyx.data.Sql;
+
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class SqlLiteDataContext implements SQLiteOpenHelper {
+	
+}

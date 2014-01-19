@@ -4,4 +4,10 @@
 <fullyQualifiedTypeName name="android.support.v4.widget.SimpleCursorAdapter"/>
 <fullyQualifiedTypeName name="com.geitle.genyx.activities.NoteListActivity"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.geitle.genyx.model.DataContext"/>
+<fullyQualifiedTypeName name="com.geitle.genyx.model.Note"/>
+<fullyQualifiedTypeName name="android.R.raw"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.google.android.gms.appstate.b.c"/>
+<fullyQualifiedTypeName name="com.geitle.genyx.R.raw"/>
 </qualifiedTypeNameHistroy>
